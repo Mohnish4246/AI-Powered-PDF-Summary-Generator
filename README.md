@@ -46,4 +46,19 @@ source venv/bin/activate  # or venv\Scripts\activate on Windows
 pip install -r requirements.txt
 
 # Run the Streamlit app
-streamlit run app.py
+streamlit run app.py 
+```
+## How It Works
+
+-  Upload a PDF document (multi-page supported)
+-  Choose your preferred summary length
+-  AI processes the text using a BART-based model
+-  View the result, download it, or listen via speech
+
+## Limitations
+
+-  First-time model download (~1.5GB)
+-  TTS audio works only on local systems
+-  Summarization is skipped if PDF is too short (<300 words)
+
+
