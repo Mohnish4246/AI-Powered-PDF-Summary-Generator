@@ -7,4 +7,3 @@ fpdf              # Generate summary as downloadable PDF
 wordcloud         # Visual AI explanation (optional)
 matplotlib        # Required by wordcloud for rendering
 gTTS              # Download summary as .mp3 (optional TTS)
-fitz
