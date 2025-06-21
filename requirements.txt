@@ -1,0 +1,9 @@
+streamlit         # UI framework
+PyMuPDF           # PDF text extraction
+transformers      # HuggingFace model (BART, T5, etc.)
+torch             # Backend for transformer models
+pyttsx3           # Offline text-to-speech (local system)
+fpdf              # Generate summary as downloadable PDF
+wordcloud         # Visual AI explanation (optional)
+matplotlib        # Required by wordcloud for rendering
+gTTS              # Download summary as .mp3 (optional TTS)
